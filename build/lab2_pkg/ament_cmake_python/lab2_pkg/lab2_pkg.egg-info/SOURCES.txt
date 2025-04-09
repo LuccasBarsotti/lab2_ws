@@ -1,0 +1,6 @@
+setup.py
+lab2_pkg/__init__.py
+lab2_pkg.egg-info/PKG-INFO
+lab2_pkg.egg-info/SOURCES.txt
+lab2_pkg.egg-info/dependency_links.txt
+lab2_pkg.egg-info/top_level.txt

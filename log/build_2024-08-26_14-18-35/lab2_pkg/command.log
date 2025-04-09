@@ -1,0 +1,2 @@
+Invoking command in '/home/barsotti/lab2_ws/build/lab2_pkg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/barsotti/lab2_ws/src/lab2_pkg -DCMAKE_INSTALL_PREFIX=/home/barsotti/lab2_ws/install/lab2_pkg
+Invoked command in '/home/barsotti/lab2_ws/build/lab2_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/barsotti/lab2_ws/src/lab2_pkg -DCMAKE_INSTALL_PREFIX=/home/barsotti/lab2_ws/install/lab2_pkg

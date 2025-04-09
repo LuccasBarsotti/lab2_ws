@@ -1,0 +1,64 @@
+[0.020s] Invoking command in '/home/barsotti/lab2_ws/build/lab2_pkg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/barsotti/lab2_ws/src/lab2_pkg -DCMAKE_INSTALL_PREFIX=/home/barsotti/lab2_ws/install/lab2_pkg
+[0.049s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.349s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.415s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.436s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.936s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.938s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.190s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.600s] -- Found rclpy: 4.1.6 (/opt/ros/iron/share/rclpy/cmake)
+[1.601s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/iron/share/ackermann_msgs/cmake)
+[1.985s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.172s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.172s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.172s] -- Added test 'lint_cmake' to check CMake code style
+[2.177s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.180s] -- Added test 'xmllint' to check XML markup files
+[2.184s] -- Configuring done
+[2.198s] -- Generating done
+[2.201s] -- Build files have been written to: /home/barsotti/lab2_ws/build/lab2_pkg
+[2.216s] Invoked command in '/home/barsotti/lab2_ws/build/lab2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/barsotti/lab2_ws/src/lab2_pkg -DCMAKE_INSTALL_PREFIX=/home/barsotti/lab2_ws/install/lab2_pkg
+[2.223s] Invoking command in '/home/barsotti/lab2_ws/build/lab2_pkg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/barsotti/lab2_ws/build/lab2_pkg -- -j4 -l4
+[2.344s] Built target ament_cmake_python_copy_lab2_pkg
+[2.912s] running egg_info
+[2.913s] creating lab2_pkg.egg-info
+[2.913s] writing lab2_pkg.egg-info/PKG-INFO
+[2.915s] writing dependency_links to lab2_pkg.egg-info/dependency_links.txt
+[2.916s] writing top-level names to lab2_pkg.egg-info/top_level.txt
+[2.916s] writing manifest file 'lab2_pkg.egg-info/SOURCES.txt'
+[2.923s] reading manifest file 'lab2_pkg.egg-info/SOURCES.txt'
+[2.927s] writing manifest file 'lab2_pkg.egg-info/SOURCES.txt'
+[2.986s] Built target ament_cmake_python_build_lab2_pkg_egg
+[3.014s] Invoked command in '/home/barsotti/lab2_ws/build/lab2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/barsotti/lab2_ws/build/lab2_pkg -- -j4 -l4
+[3.082s] Invoking command in '/home/barsotti/lab2_ws/build/lab2_pkg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/barsotti/lab2_ws/build/lab2_pkg
+[3.094s] -- Install configuration: ""
+[3.097s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/environment/pythonpath.sh
+[3.097s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/environment/pythonpath.dsv
+[3.098s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info
+[3.098s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[3.098s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.098s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.098s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[3.099s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg
+[3.099s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg/__init__.py
+[3.163s] Listing '/home/barsotti/lab2_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg'...
+[3.164s] Compiling '/home/barsotti/lab2_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg/__init__.py'...
+[3.176s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/lib/lab2_pkg/lab2_aeb.py
+[3.176s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/ament_index/resource_index/package_run_dependencies/lab2_pkg
+[3.177s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/ament_index/resource_index/parent_prefix_path/lab2_pkg
+[3.177s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/environment/ament_prefix_path.sh
+[3.179s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/environment/ament_prefix_path.dsv
+[3.180s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/environment/path.sh
+[3.181s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/environment/path.dsv
+[3.181s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/local_setup.bash
+[3.181s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/local_setup.sh
+[3.181s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/local_setup.zsh
+[3.181s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/local_setup.dsv
+[3.182s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/package.dsv
+[3.182s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/ament_index/resource_index/packages/lab2_pkg
+[3.182s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/cmake/lab2_pkgConfig.cmake
+[3.182s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/cmake/lab2_pkgConfig-version.cmake
+[3.185s] -- Installing: /home/barsotti/lab2_ws/install/lab2_pkg/share/lab2_pkg/package.xml
+[3.188s] Invoked command in '/home/barsotti/lab2_ws/build/lab2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/barsotti/lab2_ws/build/lab2_pkg

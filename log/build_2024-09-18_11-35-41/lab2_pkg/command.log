@@ -1,0 +1,4 @@
+Invoking command in '/home/barsotti/lab2_ws/build/lab2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/barsotti/lab2_ws/build/lab2_pkg -- -j4 -l4
+Invoked command in '/home/barsotti/lab2_ws/build/lab2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/barsotti/lab2_ws/build/lab2_pkg -- -j4 -l4
+Invoking command in '/home/barsotti/lab2_ws/build/lab2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/barsotti/lab2_ws/build/lab2_pkg
+Invoked command in '/home/barsotti/lab2_ws/build/lab2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/barsotti/lab2_ws/build/lab2_pkg

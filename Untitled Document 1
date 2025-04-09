@@ -1,0 +1,48 @@
+Tempo Commands ITTC LASER_BEAM_INDEX LASER_BEAM_ANGLE_DEGREE LASER_BEAM_LENGTH VELOCITY_TOTAL VELOCITY_AT_LASER_BEAM_DIRECTION
+0     i         3.0  0                -134º                    4m                 1.2m/s         vxcos = 0.7m/s
+...
+5     u+i
+...
+20    ,
+
+
+
+Gravar a acada 5 segundos
+
+Testes para fazer
+A) Validar que ta fazendo sentido
+1) carro parado -> ittc esperado é todos os valores muito grandes "infinitos"
+2) carro se movendo lentamente para a direita em diagonal (linha reta) -> itcc esperado os da direita menores que os da esquerda 
+
+B) Testar casos criticos
+1) Colisão frontal
+2) Colisão lateral
+3) Curva
+
+ROS2 BAG
+===========================================================================================
+
+- Gravar cada cenário com ros2 bag XX
+  - Carro parado X
+  - Carro andando em linha reta X
+  - Colisão frontal X
+  - Colisão traseira X
+  - Colisão lateral direita X
+  - Colisão lateral esquerda X
+  - Curva pra esquerda X
+  - Curva pra direita X
+  
+- Criar o script em python que gera um csv com as colunas como está lá em cima XX
+
+- Analisar os dados e fazer a calibração XX
+  - Não é necessário considerar Vx*cos < 0, pois isso significa que o carro tá se afastando daquele laser beam
+  - Linha reta: min(ittc): 3s
+  - Curva à esquerda: min(ittc): 2.8s
+  - Curva à direita: min(ittc): 2.7s
+  - Colisão frontal: min(ittc): 1.4s
+  - Colisão lateral esquerda: min(ittc): 1.05
+  - Colisão lateral direita: min(ittc): 1.7
+  - Colisão traseira: min(ittc) 0.8s
+  Conclusão: Mediantes esses dados, vou definir um tempo de colisão máximo de 2s. Ficou menor que 2s, vou acionar os freios de emergência
+  
+  - Implementar o freio de emergência no python

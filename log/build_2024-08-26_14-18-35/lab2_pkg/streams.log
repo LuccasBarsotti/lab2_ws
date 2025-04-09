@@ -1,0 +1,24 @@
+[0.024s] Invoking command in '/home/barsotti/lab2_ws/build/lab2_pkg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/barsotti/lab2_ws/src/lab2_pkg -DCMAKE_INSTALL_PREFIX=/home/barsotti/lab2_ws/install/lab2_pkg
+[0.057s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.381s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.443s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.463s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.920s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.922s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.173s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.590s] -- Found rclpy: 4.1.6 (/opt/ros/iron/share/rclpy/cmake)
+[1.591s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/iron/share/ackermann_msgs/cmake)
+[1.972s] -- Configuring incomplete, errors occurred!
+[1.972s] See also "/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/CMakeOutput.log".
+[1.972s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[1.973s]   ament_python_install_package() the Python package folder
+[1.973s]   '/home/barsotti/lab2_ws/src/lab2_pkg/lab2_pkg' doesn't contain an
+[1.973s]   '__init__.py' file
+[1.973s] Call Stack (most recent call first):
+[1.973s]   /opt/ros/iron/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[1.974s]   CMakeLists.txt:16 (ament_python_install_package)
+[1.974s] 
+[1.974s] [0m
+[1.997s] Invoked command in '/home/barsotti/lab2_ws/build/lab2_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/barsotti/lab2_ws/src/lab2_pkg -DCMAKE_INSTALL_PREFIX=/home/barsotti/lab2_ws/install/lab2_pkg

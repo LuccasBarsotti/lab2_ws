@@ -1,0 +1,11 @@
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/uninstall.dir
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/lab2_pkg_uninstall.dir
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/ament_cmake_python_copy_lab2_pkg.dir
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/ament_cmake_python_build_lab2_pkg_egg.dir
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/test.dir
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/edit_cache.dir
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/rebuild_cache.dir
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/list_install_components.dir
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/install.dir
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/install/local.dir
+/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/install/strip.dir

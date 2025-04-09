@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (lab2_pkg) JobQueued: {'identifier': 'lab2_pkg', 'dependencies': OrderedDict()}
+[0.001836] (lab2_pkg) JobStarted: {'identifier': 'lab2_pkg'}
+[0.028234] (lab2_pkg) JobProgress: {'identifier': 'lab2_pkg', 'progress': 'cmake'}
+[0.029052] (lab2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/barsotti/lab2_ws/src/lab2_pkg', '-DCMAKE_INSTALL_PREFIX=/home/barsotti/lab2_ws/install/lab2_pkg'], 'cwd': '/home/barsotti/lab2_ws/build/lab2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'barsotti'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/barsotti'), ('OLDPWD', '/home/barsotti/lab2_ws/src/lab2_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1477'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1652'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6614'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'barsotti'), ('JOURNAL_STREAM', '8:13805'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'barsotti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/barsotti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/barsotti-ThinkPad-T460s:@/tmp/.ICE-unix/1623,unix/barsotti-ThinkPad-T460s:/tmp/.ICE-unix/1623'), ('INVOCATION_ID', 'cc67cecb6cc74571b159219150a59551'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UR6NS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '50'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a4dd806e-02ee-4923-b813-b0dca20c9db1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/barsotti/lab2_ws/build/lab2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.100192] (-) TimerEvent: {}
+[0.200649] (-) TimerEvent: {}
+[0.257852] (lab2_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300778] (-) TimerEvent: {}
+[0.401166] (-) TimerEvent: {}
+[0.501571] (-) TimerEvent: {}
+[0.503005] (lab2_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.527879] (lab2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601686] (-) TimerEvent: {}
+[0.682322] (lab2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.699842] (lab2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.702166] (-) TimerEvent: {}
+[0.703646] (lab2_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.705078] (lab2_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.712506] (lab2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.803871] (-) TimerEvent: {}
+[0.890710] (lab2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.903981] (-) TimerEvent: {}
+[0.906813] (lab2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.907619] (lab2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.910270] (lab2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.919495] (lab2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.004106] (-) TimerEvent: {}
+[1.104504] (-) TimerEvent: {}
+[1.207808] (-) TimerEvent: {}
+[1.300390] (lab2_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.307929] (-) TimerEvent: {}
+[1.408268] (-) TimerEvent: {}
+[1.508614] (-) TimerEvent: {}
+[1.560586] (lab2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[1.610804] (-) TimerEvent: {}
+[1.702634] (lab2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.711082] (-) TimerEvent: {}
+[1.743843] (lab2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.801821] (lab2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.811199] (-) TimerEvent: {}
+[1.870626] (lab2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.911337] (-) TimerEvent: {}
+[2.012967] (-) TimerEvent: {}
+[2.116809] (-) TimerEvent: {}
+[2.217180] (-) TimerEvent: {}
+[2.317790] (-) TimerEvent: {}
+[2.376052] (lab2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.383829] (lab2_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.417935] (-) TimerEvent: {}
+[2.518677] (-) TimerEvent: {}
+[2.619353] (-) TimerEvent: {}
+[2.700116] (lab2_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.720582] (-) TimerEvent: {}
+[2.757377] (lab2_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[2.820710] (-) TimerEvent: {}
+[2.845571] (lab2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.920843] (-) TimerEvent: {}
+[3.024139] (-) TimerEvent: {}
+[3.124470] (-) TimerEvent: {}
+[3.225102] (-) TimerEvent: {}
+[3.326685] (-) TimerEvent: {}
+[3.331130] (lab2_pkg) StdoutLine: {'line': b'-- Found rclpy: 4.1.6 (/opt/ros/iron/share/rclpy/cmake)\n'}
+[3.334006] (lab2_pkg) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/iron/share/ackermann_msgs/cmake)\n'}
+[3.426835] (-) TimerEvent: {}
+[3.528836] (-) TimerEvent: {}
+[3.629188] (-) TimerEvent: {}
+[3.729974] (-) TimerEvent: {}
+[3.795008] (lab2_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):\n'}
+[3.795595] (lab2_pkg) StderrLine: {'line': b'  ament_python_install_package() the Python package folder\n'}
+[3.795830] (lab2_pkg) StderrLine: {'line': b"  '/home/barsotti/lab2_ws/src/lab2_pkg/lab2_pkg' doesn't contain an\n"}
+[3.795997] (lab2_pkg) StderrLine: {'line': b"  '__init__.py' file\n"}
+[3.796189] (lab2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.796395] (lab2_pkg) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[3.796580] (lab2_pkg) StderrLine: {'line': b'  CMakeLists.txt:16 (ament_python_install_package)\n'}
+[3.796760] (lab2_pkg) StderrLine: {'line': b'\n'}
+[3.797394] (lab2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[3.797571] (lab2_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.797747] (lab2_pkg) StdoutLine: {'line': b'See also "/home/barsotti/lab2_ws/build/lab2_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[3.817054] (lab2_pkg) CommandEnded: {'returncode': 1}
+[3.830541] (-) TimerEvent: {}
+[3.877688] (lab2_pkg) JobEnded: {'identifier': 'lab2_pkg', 'rc': 1}
+[3.891048] (-) EventReactorShutdown: {}
